@@ -48,6 +48,9 @@ button:hover{
 .die{
     margin:20px;
 }
+#number{
+    font-size: 16px;
+}
 .predict-div{
     padding-top: 70px;
     display: flex;
