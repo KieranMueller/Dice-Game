@@ -1,0 +1,100 @@
+html{
+    overflow-x: hidden;
+    background-color: rgba(250, 235, 215, 0.336);
+}
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.creepy{
+    background-image: url(teletubbies.jpg);
+
+}
+img{
+    width:80px;
+    box-shadow: 2px 10px 12px black;
+    animation: jiggle 1.5s;
+}
+.dice-div{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color:white;
+}
+button{
+    width: 200px;
+    height:50px;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    background-color: rgb(162, 214, 254);
+    color:rgb(86, 65, 30);
+    transition:.2s;
+    border:1px solid gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+button:hover{
+    box-shadow: 0 1px 4px black;
+    scale:0.98;
+    font-size: 28px;
+}
+.die{
+    margin:20px;
+}
+.predict-div{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+label{
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    width:100px;
+}
+.escape-div{
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+}
+.wrong-div{
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+}
+p{
+    font-size: 20px;
+}
+.cheat-div{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes jiggle {
+    25%{
+        scale:0.8;
+        rotate: 5deg;
+        box-shadow: 4px 4px 8px black;
+
+    }
+    50%{
+        rotate:-5deg;
+        scale:1.2;
+        box-shadow: 4px 15px 20px black;
+
+    }
+    90%{
+        rotate:180deg;
+        scale:0.8;
+        box-shadow: 4px 4px 8px black;
+
+    }
+}
